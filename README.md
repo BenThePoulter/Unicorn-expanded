@@ -1,5 +1,5 @@
 # Unicorn expanded
-A python 3 module for the <a href="https://shop.pimoroni.com/products/unicorn-hat">pimoroni unicorn hat</a> to add a few extra controls. <br><br>
+A python 3 module for the <a href="https://shop.pimoroni.com/products/unicorn-hat">pimoroni unicorn hat</a> for raspberry pi. Adding a few extra controls. <br><br>
 
 <b>Note:</b> This requires the unicorn hat library installed to work (install with <code>curl -sS https://get.pimoroni.com/unicornhat | bash</code>)<br><br>
 
