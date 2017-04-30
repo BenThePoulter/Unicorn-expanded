@@ -8,24 +8,24 @@ def fill(R, G, B):
 def fadein():
     uh.brightness(0)
     for b in range(0, 91, 1):
-        unicornhat.brightness(b/100)
+        unicornhat.brightness(int(b/100.0))
         unicornhat.show()
         sleep(0.1)   
 def fadeout():
     unicornhat.brightness(0.9)
     for b in range(90, 0, -1):
-        unicornhat.brightness(b/100)
+        unicornhat.brightness(int(b/100.0))
         unicornhat.show()
         sleep(0.1)
 def pulse(times):
     for i in range(times):
         unicornhat.brightness(0.9)
         for b in range(90, 59, -1):
-            unicornhat.brightness(b/100)
+            unicornhat.brightness(int(b/100.0))
             unicornhat.show()
             sleep(0.04)
         for b in range(60, 91, 1):
-            unicornhat.brightness(b/100)
+            unicornhat.brightness(int(b/100.0))
             unicornhat.show()
             sleep(0.04)
 def clear():
