@@ -4,7 +4,7 @@ A python 3 module for the <a href="https://shop.pimoroni.com/products/unicorn-ha
 <b>Note:</b> This requires the unicorn hat library installed to work (install with <code>curl -sS https://get.pimoroni.com/unicornhat | bash</code>)<br><br>
 
 ## Documentation
-To use it simply download the file, place it in the same folder as your unicorn hat script and put <code>from unicorn-expanded import *</code> at the top of the file. <br><br>
+To use it simply download unicorn-expanded.py, place it in the same folder as your unicorn hat script and put <code>from unicorn-expanded import *</code> at the top of the file. <br><br>
 
 Fill the whole matrix one colour (but not show):
 <code>fill(R, G, B)</code><br>
