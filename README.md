@@ -8,6 +8,8 @@ To use it simply download the file, place it in the same folder as your unicorn 
 
 Fill the whole matrix one colour (but not show):
 <code>fill(R, G, B)</code><br>
+Fill the matrix with a rainbow (but also not show): 
+<code>rainbow()</code><br>
 Fade the brightness from 0 to 0.9:
 <code>fadein()</code><br>
 Fade the brighness from 0.9 to 0:
@@ -16,6 +18,4 @@ Pulse the matrix:
 <code>pulse(times)</code><br>
 Instantly clear:
 <code>clear()</code><br>
-Create a rainbow: 
-<code>rainbow()</code><br>
 
