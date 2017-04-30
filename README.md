@@ -14,6 +14,8 @@ Fade the brighness from 0.9 to 0:
 <code>fadeout()</code><br>
 Pulse the matrix:
 <code>pulse(times)</code><br>
-instantly clear:
+Instantly clear:
 <code>clear()</code><br>
+Create a rainbow: 
+<code>rainbow()</code><br>
 
