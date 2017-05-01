@@ -43,5 +43,4 @@ def rainbow():
     for y in range(8):
         for x in range(8):
             set_pixel_hsv(x,y,(1.0/8)*x,(1.0/8)*y,1.0)
-            unicornhat.show()
 unicornhat.brightness(0)
