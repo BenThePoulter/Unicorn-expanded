@@ -1,3 +1,8 @@
+'''
+Unicorn-expanded
+Created by BenThePoulter on github
+'''
+
 from time import sleep
 import unicornhat 
 import colorsys as col
@@ -40,4 +45,3 @@ def rainbow():
             set_pixel_hsv(x,y,(1.0/8)*x,(1.0/8)*y,1.0)
             unicornhat.show()
 unicornhat.brightness(0)
-    
