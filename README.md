@@ -7,3 +7,6 @@ A small but very useful python module for the <a href="https://shop.pimoroni.com
 To use it simply download unicorn_expanded.py, place it in the same folder as your unicorn hat script and put <code>from unicorn_expanded import *</code> at the top of the file. <br><br>
 
 
+### Funtions
+Fill the screens buffer one colour(but not display):<br>
+<code>fill(R, G, B)</code>

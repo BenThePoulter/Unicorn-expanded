@@ -60,7 +60,7 @@ def pulse(times):
             unicornhat.show()
             sleep(0.04)
             
-def end():
+def off():
     unicornhat.clear()
     unicornhat.brightness(0)
     unicornhat.show()
