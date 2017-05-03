@@ -8,7 +8,7 @@ To use it simply download unicorn_expanded.py, place it in the same folder as yo
 
 
 ### Funtions
-Fill the screens buffer one colour (won't it though): <code>fill(R, G, B)</code><br><br>
+Fill the screens buffer one colour (won't display it though): <code>fill(R, G, B)</code><br><br>
 Fill the buffer with a rainbow (also wont't display): <code>rainbow()</code><br><br>
 Show the buffer immediately on a brightness of 0.9: <code>on()</code><br><br>
 Switch off the buffer immediately to a brightness of 0: <code>off()</code><br><br>
