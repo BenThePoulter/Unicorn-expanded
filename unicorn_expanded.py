@@ -27,12 +27,6 @@ def on():
 def on():
     unicornhat.brightness(0)
     unicornhat.show
-
-def strobe(times):
-    for b in range(times):
-        unicornhat.brightness(0)
-        sleep(0.3)
-        unicornhat.brightness(0.9)
             
 def fadein():
     unicornhat.brightness(0)
@@ -47,6 +41,12 @@ def fadeout():
         unicornhat.brightness(b/100)
         unicornhat.show()
         sleep(0.1)
+
+def strobe(times):
+    for b in range(times):
+        unicornhat.brightness(0)
+        sleep(0.3)
+        unicornhat.brightness(0.9)
         
 def pulse(times):
     for i in range(times):
@@ -59,8 +59,8 @@ def pulse(times):
             unicornhat.brightness(b/100)
             unicornhat.show()
             sleep(0.04)
-            
-def off():
+
+def clear():
     unicornhat.clear()
     unicornhat.brightness(0)
     unicornhat.show()
