@@ -14,6 +14,6 @@ Show the buffer immediately on a brightness of 0.9: <code>on()</code><br><br>
 Switch off the buffer immediately to a brightness of 0: <code>off()</code><br><br>
 Fade in the buffer from 0 to 0.9 in 9 seconds (fixed speed deal with it): <code>fadein()</code><br><br>
 Fade out the buffer from 0.9 to 0 in 9 seconds (also fixed speed): <code>fadeout()</code><br><br>
-Flash the buffer very fast (strobe): <code>strobe(times)</code><br><br>
+<s>Flash the buffer very fast (strobe): <code>strobe(times)</code></s> Needs fixing<br><br>
 pulse the buffer between 0.9 and 60 (start at 0.9 then fade to 0.6 then fade back to 0.9): <code>pulse(times)</code><br><br>
 Set brightness to 0 and clear immediately: <code>clear()</code><br><br>
