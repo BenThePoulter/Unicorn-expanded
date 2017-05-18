@@ -41,7 +41,7 @@ def fadeout():
         unicornhat.brightness(b/100)
         unicornhat.show()
         sleep(0.1)
-'''
+''' needs fixing
 def strobe(times):
     for b in range(times):
         unicornhat.brightness(0)
